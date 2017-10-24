@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C65438551F9EEAB70084B5C6 /* MetaballLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C65438541F9EEAB70084B5C6 /* MetaballLayer.m */; };
+		C65438581F9EEB980084B5C6 /* MetaballView.m in Sources */ = {isa = PBXBuildFile; fileRef = C65438571F9EEB980084B5C6 /* MetaballView.m */; };
+		C6602EDD1F9893270015CA2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6602EDC1F9893270015CA2F /* main.m */; };
+		C6602EE01F9893270015CA2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6602EDF1F9893270015CA2F /* AppDelegate.m */; };
+		C6602EE31F9893270015CA2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6602EE21F9893270015CA2F /* ViewController.m */; };
+		C6602EE61F9893270015CA2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6602EE41F9893270015CA2F /* Main.storyboard */; };
+		C6602EE81F9893270015CA2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6602EE71F9893270015CA2F /* Assets.xcassets */; };
+		C6602EEB1F9893270015CA2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6602EE91F9893270015CA2F /* LaunchScreen.storyboard */; };
+		C6602EF51F9895F40015CA2F /* TTPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C6602EF41F9895F40015CA2F /* TTPoint.m */; };
+		C6602EF81F9896700015CA2F /* TTCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = C6602EF71F9896700015CA2F /* TTCircle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C65438531F9EEAB70084B5C6 /* MetaballLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetaballLayer.h; path = metaball/MetaballLayer.h; sourceTree = "<group>"; };
+		C65438541F9EEAB70084B5C6 /* MetaballLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetaballLayer.m; path = metaball/MetaballLayer.m; sourceTree = "<group>"; };
+		C65438561F9EEB980084B5C6 /* MetaballView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MetaballView.h; path = metaball/MetaballView.h; sourceTree = "<group>"; };
+		C65438571F9EEB980084B5C6 /* MetaballView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MetaballView.m; path = metaball/MetaballView.m; sourceTree = "<group>"; };
+		C6602ED81F9893270015CA2F /* Metaball-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metaball-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6602EDC1F9893270015CA2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6602EDE1F9893270015CA2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6602EDF1F9893270015CA2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6602EE11F9893270015CA2F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6602EE21F9893270015CA2F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6602EE51F9893270015CA2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6602EE71F9893270015CA2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6602EEA1F9893270015CA2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6602EEC1F9893270015CA2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6602EF31F9895F40015CA2F /* TTPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTPoint.h; path = metaball/TTPoint.h; sourceTree = "<group>"; };
+		C6602EF41F9895F40015CA2F /* TTPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTPoint.m; path = metaball/TTPoint.m; sourceTree = "<group>"; };
+		C6602EF61F9896700015CA2F /* TTCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTCircle.h; path = metaball/TTCircle.h; sourceTree = "<group>"; };
+		C6602EF71F9896700015CA2F /* TTCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTCircle.m; path = metaball/TTCircle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6602ED51F9893270015CA2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6602ECF1F9893270015CA2F = {
+			isa = PBXGroup;
+			children = (
+				C6602EDA1F9893270015CA2F /* metaball */,
+				C6602ED91F9893270015CA2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6602ED91F9893270015CA2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6602ED81F9893270015CA2F /* Metaball-IOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6602EDA1F9893270015CA2F /* metaball */ = {
+			isa = PBXGroup;
+			children = (
+				C6602EF21F9895B00015CA2F /* metaball */,
+				C6602EDE1F9893270015CA2F /* AppDelegate.h */,
+				C6602EDF1F9893270015CA2F /* AppDelegate.m */,
+				C6602EE11F9893270015CA2F /* ViewController.h */,
+				C6602EE21F9893270015CA2F /* ViewController.m */,
+				C6602EE41F9893270015CA2F /* Main.storyboard */,
+				C6602EE71F9893270015CA2F /* Assets.xcassets */,
+				C6602EE91F9893270015CA2F /* LaunchScreen.storyboard */,
+				C6602EEC1F9893270015CA2F /* Info.plist */,
+				C6602EDB1F9893270015CA2F /* Supporting Files */,
+			);
+			path = metaball;
+			sourceTree = "<group>";
+		};
+		C6602EDB1F9893270015CA2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6602EDC1F9893270015CA2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6602EF21F9895B00015CA2F /* metaball */ = {
+			isa = PBXGroup;
+			children = (
+				C6602EF31F9895F40015CA2F /* TTPoint.h */,
+				C6602EF41F9895F40015CA2F /* TTPoint.m */,
+				C6602EF61F9896700015CA2F /* TTCircle.h */,
+				C6602EF71F9896700015CA2F /* TTCircle.m */,
+				C65438531F9EEAB70084B5C6 /* MetaballLayer.h */,
+				C65438541F9EEAB70084B5C6 /* MetaballLayer.m */,
+				C65438561F9EEB980084B5C6 /* MetaballView.h */,
+				C65438571F9EEB980084B5C6 /* MetaballView.m */,
+			);
+			name = metaball;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6602ED71F9893270015CA2F /* Metaball-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6602EEF1F9893270015CA2F /* Build configuration list for PBXNativeTarget "Metaball-IOS" */;
+			buildPhases = (
+				C6602ED41F9893270015CA2F /* Sources */,
+				C6602ED51F9893270015CA2F /* Frameworks */,
+				C6602ED61F9893270015CA2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Metaball-IOS";
+			productName = metaball;
+			productReference = C6602ED81F9893270015CA2F /* Metaball-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6602ED01F9893270015CA2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kthangtd;
+				TargetAttributes = {
+					C6602ED71F9893270015CA2F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8NUFWD7D5R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C6602ED31F9893270015CA2F /* Build configuration list for PBXProject "Metaball-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6602ECF1F9893270015CA2F;
+			productRefGroup = C6602ED91F9893270015CA2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6602ED71F9893270015CA2F /* Metaball-IOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6602ED61F9893270015CA2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6602EEB1F9893270015CA2F /* LaunchScreen.storyboard in Resources */,
+				C6602EE81F9893270015CA2F /* Assets.xcassets in Resources */,
+				C6602EE61F9893270015CA2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6602ED41F9893270015CA2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6602EE31F9893270015CA2F /* ViewController.m in Sources */,
+				C6602EE01F9893270015CA2F /* AppDelegate.m in Sources */,
+				C6602EF51F9895F40015CA2F /* TTPoint.m in Sources */,
+				C6602EF81F9896700015CA2F /* TTCircle.m in Sources */,
+				C6602EDD1F9893270015CA2F /* main.m in Sources */,
+				C65438581F9EEB980084B5C6 /* MetaballView.m in Sources */,
+				C65438551F9EEAB70084B5C6 /* MetaballLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6602EE41F9893270015CA2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6602EE51F9893270015CA2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6602EE91F9893270015CA2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6602EEA1F9893270015CA2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6602EED1F9893270015CA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6602EEE1F9893270015CA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6602EF01F9893270015CA2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NUFWD7D5R;
+				INFOPLIST_FILE = metaball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kthangtd.ios.metaball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C6602EF11F9893270015CA2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NUFWD7D5R;
+				INFOPLIST_FILE = metaball/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kthangtd.ios.metaball;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6602ED31F9893270015CA2F /* Build configuration list for PBXProject "Metaball-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6602EED1F9893270015CA2F /* Debug */,
+				C6602EEE1F9893270015CA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6602EEF1F9893270015CA2F /* Build configuration list for PBXNativeTarget "Metaball-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6602EF01F9893270015CA2F /* Debug */,
+				C6602EF11F9893270015CA2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6602ED01F9893270015CA2F /* Project object */;
+}
